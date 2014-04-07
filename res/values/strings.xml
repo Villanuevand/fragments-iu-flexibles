@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">IU Flexibles</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="empty"> </string>
+
+    <!-- String Array Capitulos -->
+    <string-array name="capitulos">
+        <item>Building Your First App</item>
+        <item>Adding the Action Bar</item>
+        <item>Supporting Different Devices</item>
+        <item>Managing the Activity Lifecycle</item>
+        <item>Building a Dynamic UI with Fragments</item>
+        <item>Saving Data</item>
+    </string-array>
+    <!-- String Array Descripciones -->
+    <string-array name="descripciones">
+        <item>Welcome to Android application development!This class teaches you how to build your first Android app. 
+              You\’ll learn how to create an Android project and run a debuggable version of the app. 
+              You\'ll also learn some fundamentals of Android app design, including how to build a simple user interface and handle user input.
+              This class uses a tutorial format that incrementally builds a small Android app that teaches you some fundamental concepts about Android development, so it\'s important that you follow each step.</item>
+        <item>            The action bar is one of the most important design elements you can implement for your app\'s activities. 
+            It provides several user interface features that make your app immediately familiar to users by offering consistency between other Android apps. Key functions include:</item>
+        <item>            Android devices come in many shapes and sizes all around the world. With a wide range of device types, you have an opportunity to reach a huge audience with your app. 
+            In order to be as successful as possible on Android, your app needs to adapt to various device configurations. 
+            Some of the important variations that you should consider include different languages, screen sizes, and versions of the Android platform.</item>
+        <item>            As a user navigates through, out of, and back to your app, the Activity instances in your app transition between different states in their lifecycle. 
+            For instance, when your activity starts for the first time, it comes to the foreground of the system and receives user focus. 
+            During this process, the Android system calls a series of lifecycle methods on the activity in which you set up the user interface and other components. 
+            If the user performs an action that starts another activity or switches to another app, the system calls another set of lifecycle methods on your activity as it moves into the background (where the activity is no longer visible, but the instance and its state remains intact)</item>
+        <item>            To create a dynamic and multi-pane user interface on Android, you need to encapsulate UI components and activity behaviors into modules that you can swap into and out of your activities. 
+            You can create these modules with the Fragment class, which behaves somewhat like a nested activity that can define its own layout and manage its own lifecycle.
+			When a fragment specifies its own layout, it can be configured in different combinations with other fragments inside an activity to modify your layout configuration for different screen sizes (a small screen might show one fragment at a time, but a large screen can show two or more).</item>
+        <item>            Most Android apps need to save data, even if only to save information about the app state during onPause() so the user\'s progress is not lost. Most non-trivial apps also need to save user settings, and some apps must manage large amounts of information in files and databases. 
+            This class introduces you to the principal data storage options in Android, including:</item>
+    </string-array>
+
+    <string name="title_activity_second">SecondActivity</string>
+
+</resources>
